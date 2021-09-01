@@ -1,0 +1,129 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: rgb(26, 26, 23);
+}
+
+#titulo {
+    color: #fff;
+    margin-top: 20px;
+    margin-left: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}   
+
+/* //asside */
+header { 
+    position: fixed;
+    top:0;
+    right: 0;
+    z-index: 999;
+    display: flex;
+    
+}
+
+#menu-opener {
+    width: 40px;
+    height: 40px;
+    cursor:pointer;
+    margin-top: 20px;
+    margin-right: 20px;
+    
+}
+
+.item {
+    margin-bottom: 5px;
+    height:5px;
+    background-color:rgb(243, 210, 138)
+}
+
+#menu-area  {
+    width: 0px;
+    height: 100vh;
+    background-color: rgb(122, 120, 120);
+    overflow-x: hidden;
+    overflow-Y: auto;
+    transition: all ease .5s;
+    
+}
+
+#menu-area nav, #menu-area ul, #menu-area li {
+    padding: 0;
+    list-style: none;
+   
+}
+
+#menu-area li {
+    display: block;
+    padding: 10px;
+    color:rgb(243, 242, 235);
+    cursor: pointer;
+    text-transform: uppercase;
+    margin-top: 20px;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#menu-area li:hover {
+    background-color: rgb(243, 210, 138);
+    color:black
+}
+
+.menu-opened {
+    width: 200px !important;
+}
+
+
+
+
+
+
+
+/* main {
+    height:100px;
+    background-color: rgb(245, 201, 145);
+    color:rgb(26, 26, 23)
+} */
+
+/* .container {
+    max-width: 1140px;
+    height: 100px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+
+.menu {
+    flex: 1;
+    display:flex;
+    justify-content: flex-start;
+}
+
+.menu ul, .menu li {
+    list-style: none;
+}
+
+
+.menu ul {
+    display:flex
+}
+
+.menu li a {
+    color: rgb(49, 49, 48);
+    text-transform: uppercase;
+    font-weight: 600px;
+    text-decoration: none;
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    border-bottom: 5px solid rgb(26, 26, 23));
+}
+
+.menu li a:hover,
+.menu .active a {
+    border-bottom: 5px solid rgb(212, 212, 51);
+} */
